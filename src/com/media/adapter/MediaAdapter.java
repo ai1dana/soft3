@@ -20,6 +20,6 @@ public class MediaAdapter implements MediaPlayer {
 
     @Override
     public void play(String fileName) {
-        mediaPlayer.play(fileName);  // Делегируем вызов в нужный проигрыватель
+        mediaPlayer.play(fileName);
     }
 }
