@@ -1,8 +1,8 @@
 package com.media.player;
 
-public class MP3Player implements MediaPlayer {
+public class MP4Player implements MediaPlayer {
     @Override
     public void play(String fileName) {
-        System.out.println("Playing MP3 file: " + fileName);
+        System.out.println("Playing MP4 file: " + fileName);
     }
 }
